@@ -1,17 +1,28 @@
+# Ultimate YouTube Downloader
 
-## How to Use This README
+A Flask-based web application that lets users download YouTube videos or playlists in various formats and qualities, with automatic FFmpeg detection and fallback options.
 
-1. Save this content as `README.md` in your project root
-2. Replace placeholder values (like `yourusername`) with your actual information
-3. Add a screenshot (optional but recommended)
-4. Customize any sections as needed for your specific implementation
+![Screenshot](screenshot.png) *(Add your screenshot here)*
 
-The README includes:
-- Clear installation instructions
-- Usage guide
-- Configuration options
-- Troubleshooting tips
-- License information
-- Contribution guidelines
+## Features
 
-This professional README will help users understand and use your application effectively.
+- 🎥 Download videos in multiple qualities (up to 8K)
+- 🔊 Extract audio-only (MP3 format)
+- 🔍 Automatic FFmpeg detection
+- 🛠️ Smart format selection with fallback options
+- 📁 Organized download management
+- 🚫 Error handling with user-friendly messages
+- 🌐 Simple web interface
+
+## Requirements
+
+- Python 3.7+
+- FFmpeg (recommended for best quality)
+- Internet connection
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/youtube-downloader.git
+   cd youtube-downloader
