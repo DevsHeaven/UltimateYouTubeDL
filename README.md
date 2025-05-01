@@ -1,8 +1,34 @@
-# Ultimate YouTube Downloader
+# Simple YouTube Downloader (No FFmpeg Required)
+
+A lightweight Flask web application for downloading YouTube videos without requiring FFmpeg. Downloads videos as MP4 or audio as M4A directly.
+
+## Features
+
+- 🚀 No FFmpeg installation needed
+- 🌐 Web-based interface (Flask)
+- 📹 Download videos as MP4
+- 🎧 Extract audio as M4A
+- 📂 Organized download folder
+- 🛡️ Safe filename handling
+- ❌ Basic error handling
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/simple-yt-downloader.git
+   cd simple-yt-downloader
+
+
+
+
+
+
+
+   
+# Ultimate YouTube Downloader (FFmpeg Required)
 
 A Flask-based web application that lets users download YouTube videos or playlists in various formats and qualities, with automatic FFmpeg detection and fallback options.
-
-![Screenshot](screenshot.png) *(Add your screenshot here)*
 
 ## Features
 
